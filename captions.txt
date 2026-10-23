@@ -1,0 +1,11 @@
+image,caption
+sample1.jpg,A dog is running on the grass.
+sample2.jpg,A person is riding a bicycle.
+sample3.jpg,A child is playing with a ball.
+sample4.jpg,A group of people are walking.
+sample5.jpg,A bird is sitting on a branch.
+sample6.jpg,A cat is sitting on a bench.
+sample7.jpg,Two horses are standing in a field.
+sample8.jpg,A car is parked on the road.
+sample9.jpg,A boat is floating on the water.
+sample10.jpg,A cup of coffee is on the table.

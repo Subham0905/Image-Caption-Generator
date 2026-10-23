@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Caption Generator</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Image Caption Generator</h1>
+        <p>Upload an image to generate its caption using AI.</p>
+
+        <form id="uploadForm">
+            <input type="file" id="imageInput"
+                   name="image" accept="image/*" required>
+
+            <img id="preview" alt="Image preview">
+
+            <button type="submit">Generate Caption</button>
+        </form>
+
+        <div id="loading"></div>
+
+        <div class="result">
+            <h3>Generated Caption</h3>
+            <p id="caption">Your caption will appear here.</p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

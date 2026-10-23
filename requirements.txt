@@ -1,0 +1,5 @@
+
+Flask
+Pillow
+torch
+transformers==4.44.2
